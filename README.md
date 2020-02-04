@@ -1,11 +1,11 @@
 # Ping Pong
 
-#### _A classic exercise in branchinng and looping, with a fun retro skin._
+#### _A classic exercise in branching and looping, with a fun retro skin._
 
 #### By _**Winter A. Runion**_
 
 ## Description
-_The "ping pong" app is similar to the classic interview question Fizz Buzz. The user enters a number, and the app returns a list of numbers up to the number listed, with three exceptions._
+_The "ping pong" app is similar to the classic interview question Fizz Buzz. The user enters a number, and the app returns a list of numbers up to the number listed, with the exceptions listed below._
 
 ## Specifications
 
