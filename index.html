@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
   <!-- Change this -->
-  <title>Your Site Title Here</title>
+  <title>Winter's Pong</title>
 
   <!-- Bootstrap CDN -->
   
@@ -30,12 +30,23 @@
 
   <!-- Your custom scripts & stylesheet -->
   <script src="js/scripts.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
 
 </head>
-<body>
- <!-- Do your thing!  -->
-
- 
+<body id="body">
+  <div type="container-fluid">
+    <form id="number-form">
+      <h3>Enter a number:</h3>
+      <input type="number" min=1 required aria-required="true" name="number-input" id="number-input" value=15 placeholder=0>
+      <button type="submit" class="hide2" id="button-submit">Click to Play!</button>
+      <button type="button" id="button-reload" class="hide1">Click to play again!</button>
+      </form><br>
+    <div id="results-div">
+      <h3 class="text-secondary">Your result:</h3>
+      <p id="result"></p>
+      <!-- <button type="button" id="button-reload">Click to play again!</button> -->
+    </div>
+  </div>
 </body>
 </html>
